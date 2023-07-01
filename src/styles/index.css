@@ -1,3 +1,95 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url("https://blog-eeuu.com/wp-content/uploads/2022/04/Oficina-Turismo-Nueva-York.jpg");
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.semaforo{
+    width: 17vw;
+    height: 55vh;
+    margin: 40px auto 0px;
+    border-radius: 20px 20px 30px 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  black;
+}
+
+.rojo{
+    width: 7vw;
+    height: 15vh;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 0, 0);
+    border-radius: 50%;
+}
+
+.amarillo{
+    width: 7vw;
+    height: 15vh;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 64, 0);
+    border-radius: 50%;
+}
+
+.verde{
+    width: 7vw;
+    height: 15vh;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 70, 0);
+    border-radius: 50%;
+}
+
+.palito_periquitos{
+    width: 3vw;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.shadows_red{
+    box-shadow: 0 0 30px rgb(252, 0, 0);
+    background-color: rgb(255, 0, 0);
+   
+}
+.shadows_yellow{
+    box-shadow: 0 0 30px rgb(252, 193, 0);
+    background-color: rgb(252, 193, 0);
+   
+}
+.shadows_green{
+    box-shadow: 0 0 30px rgb(60, 211, 0);
+    background-color: rgb(60, 211, 0);
+   
+}
+
+
 
 /* 
 
